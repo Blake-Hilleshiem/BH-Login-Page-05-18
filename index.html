@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/header-style.css" rel="stylesheet" type="text/css" />
+    <link href="./css/forum-container.css" rel="stylesheet" type="text/css" />
+    <link href="./css/hero-style.css" rel="stylesheet" type="text/css" />
+    <title>Login Page</title>
+  </head>
+
+  <body>
+    <div class="header-container">
+      <div class="nav-bar">
+        <i class="fa-solid fa-fire-flame-curved" style="color: white"></i>
+        <a href="./pages/homepage.html" style="color: white"> Home page </a>
+      </div>
+    </div>
+    <div class="flex-container">
+      <div class="flex-child">
+        <img
+          src="https://images.unsplash.com/photo-1589652717406-1c69efaf1ff8?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"
+          width="100%"
+        />
+      </div>
+      <div class="flex-child">
+        <div class="forum-container">
+          <form action="https://httpbin.org/post" method="post" target="_blank">
+            <div>
+              <h2><i class="fa-solid fa-lock"></i> Login:</h2>
+            </div>
+            <div>
+              <input name="username" type="text" placeholder="Username" />
+            </div>
+            <div>
+              <input name="password" type="text" placeholder="Password" />
+            </div>
+            <div>
+              <button>Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

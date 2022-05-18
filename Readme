@@ -1,0 +1,26 @@
+<!--
+Build a Login Page with Basic HTML and CSS:
+
+Do your best to replicate this design:
+https://login-page-exercise.ryancurtis1.repl.co/
+
+You should have:
+ - A navbar with a background color
+   - Some text in the navbar (non-functional is fine)
+ - A page where a large image takes up the left half, and
+   the login form is centered on the right
+ - The login form should include a large header, email field,
+   password field, and a submit button. Make this actually
+   submit to https://httpbin.org/post. Your fields should be
+   the appropriate types, and required before submitting.
+ - Include 2 icons from fontawesome.
+ - Import at least 1 font from google fonts.
+ - Have a default font for the whole page, and then use a
+   different font for your login header.
+
+Try your hand at styling the form elements, but don't spend to much time on that if you can't figure it out.
+
+Push to github and submit your link to me.
+
+HAVE FUN!!!!!
+-->

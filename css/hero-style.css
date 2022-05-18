@@ -1,0 +1,15 @@
+img {
+  position: fixed;
+  top: 56px;
+  left: 8px;
+  width: 50%;
+  height: 100%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+}
